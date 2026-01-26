@@ -26,5 +26,6 @@ def home(request):
 
     }
     return render(request, 'blog/home.html', contexts)
+
 def about(request):
     return render(request, 'blog/about.html', {"title":"Blog-About"})
